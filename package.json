@@ -1,0 +1,23 @@
+{
+	"name": "toland",
+	"version": "0.0.1",
+	"description": "Rework of the Toland bot for the D2Sanctuary Discord Server Cluster.",
+	"main": "src/index.js",
+	"scripts": {
+		"start": "node ./src/index.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/d2sanctuary/toland.git"
+	},
+	"author": "Akkaron",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/d2sanctuary/toland/issues"
+	},
+	"homepage": "https://github.com/d2sanctuary/toland#readme",
+	"dependencies": {
+		"discord.js": "^12.5.3",
+		"dotenv": "^9.0.2"
+	}
+}
