@@ -25,9 +25,9 @@ jobs:
         script: |
           systemctl stop toland
           cd ~/../srv/node
-          rm -r toland
+          rm -r Toland
           git clone https://AndiZandi:${{secrets.ACCESS_TOKEN}}@github.com/D2Sanctuary/Toland.git
-          cd toland
+          cd Toland
           npm install
           sudo dos2unix ./src/index.js
           chmod 777 ./src/index.js
