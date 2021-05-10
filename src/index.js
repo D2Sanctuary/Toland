@@ -25,7 +25,7 @@ client.once(`ready`, () => {
 client.on(`message`, async (message) => {
 	if (message.author.bot) return;
 
-	if (message.content.toLowerCase().startsWith('yo toland')) {
+	if (message.content.toLowerCase().startsWith('yo toland ')) {
 		message.channel.send('Cant do shit for now, BUT im online :)');
 	}
 });
